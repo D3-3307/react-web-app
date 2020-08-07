@@ -9608,10 +9608,10 @@ static-extend@^0.1.1:
     define-property "^0.2.5"
     object-copy "^0.1.0"
 
-statsjsbridge@1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/statsjsbridge/-/statsjsbridge-1.1.1.tgz#0f360494ffa2c6e55d0e80fb1d937a8db07a26ea"
-  integrity sha512-iyzsYPWLMOpuTUABFXs62MHMljmCKIA/2UXqfXcKNKkm+oECgoOKh3UofPam8dgEe+XyoccE8eQoaQmcyhip0w==
+statsjsbridge@1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/statsjsbridge/-/statsjsbridge-1.1.2.tgz#20c4a25bbb2b46288fc409996de35624d1507e21"
+  integrity sha512-7U7ctSjBibxeIz5J/xgH8tTPXe521g41Ybe6srtPXKYppEUjZh6IC7OWPsOHL3+aMyMLHbO7/1kuOyW5DSaxjQ==
 
 "statuses@>= 1.4.0 < 2", "statuses@>= 1.5.0 < 2", statuses@~1.5.0:
   version "1.5.0"
