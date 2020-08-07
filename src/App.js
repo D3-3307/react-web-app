@@ -4,6 +4,7 @@ import JSBridge from 'statsjsbridge';
 import './App.css';
 
 const jsApi = new JSBridge();
+jsApi.toggleDevMode()
 
 function send() {
   jsApi.sendStats().then(d => console.log(d)).catch(e => console.log(e))
