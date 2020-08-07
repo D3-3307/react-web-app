@@ -1,23 +1,27 @@
 import React from 'react';
 import logo from './logo.svg';
+import JSBridge from 'statsjsbridge';
 import './App.css';
+
+const jsApi = new JSBridge();
+
+function send() {
+  jsApi.sendStats().then(d => console.log(d)).catch(e => console.log(e))
+}
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
+
+        <button
           className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+          onClick={send}
         >
-          Learn React
-        </a>
+          发送性能数据
+        </button>
+
       </header>
     </div>
   );
